@@ -10,12 +10,19 @@ namespace AreasApp
     {
         static void Main(string[] args)
         {
+
+            Area test = new Area();
+            Console.WriteLine( test.square(2.0, 2.0));
+            Console.WriteLine(test.circle(3.2));
+            //Wait for user input to exit.
+            Console.WriteLine("Press Enter to Exit...");
+            Console.Read();
         }
     }
 
     public class Area
     {
-        public float square(float height, float width)
+        public double square(double height, double width)
         {
             return (height * width);
         }
