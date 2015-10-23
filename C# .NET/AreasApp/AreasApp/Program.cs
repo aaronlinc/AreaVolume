@@ -32,5 +32,27 @@ namespace AreasApp
             return ((Math.PI) * (radius * radius));
         }
 
+        public double elipse(double radius1, double radius2)
+        {
+            return ((Math.PI) * radius1 * radius2);
+        }
+
+        public double parallelogram(double height, double base1)
+        {
+            return (height * base1);
+        }
+
+        public double trapezoid(double height, double base1, double base2)
+        {
+            return (height/2)*(base1 + base2);
+        }
+
+        public double triangle(double base1, double height)
+        {
+            return (1 / 2) * base1 * height;
+        }
+
+
+
     }
 }
